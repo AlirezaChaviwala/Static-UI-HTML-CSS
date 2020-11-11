@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body {
+    background-color: #000000;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth,
+.seventh,
+.eight,
+.ninth {
+    margin: 0px 70px 0px 70px;
+    height: 600px;
+    border: 3px dashed white;
+    border-top-style: none;
+    border-bottom-style: none;
+    padding: 100px 200px;
+    box-sizing: border-box;
+}
+
+.tenth {
+    margin: 0px 70px 0px 70px;
+    height: 600px;
+    padding: 100px 200px;
+    box-sizing: border-box;
+}
+
+.con1 {
+    background-color: #1F1527;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: relative;
+    top: 100px;
+}
+
+.con2 {
+    background-color: #EDE3DA;
+    -ms-transform: skewY(175deg);
+    transform: skewY(175deg);
+}
+
+.con3 {
+    background-color: #271A30;
+    -ms-transform: skewY(175deg);
+    transform: skewY(175deg);
+}
+
+.con4 {
+    background-color: #DDB3B1;
+    -ms-transform: skewY(175deg);
+    transform: skewY(175deg);
+}
+
+.con5 {
+    background-color: #F1A4B5;
+    -ms-transform: skewY(175deg);
+    transform: skewY(175deg);
+}
+
+.con6 {
+    background-color: #B6BDC4;
+    -ms-transform: skewY(175deg);
+    transform: skewY(175deg);
+}
+
+.con7 {
+    background-color: #26182B;
+    -ms-transform: skewY(175deg);
+    transform: skewY(175deg);
+}
+
+.con8 {
+    background-color: #F7C2CA;
+    -ms-transform: skewY(175deg);
+    transform: skewY(175deg);
+}
+
+.con9 {
+    background-color: #FFE4CE;
+    -ms-transform: skewY(175deg);
+    transform: skewY(175deg);
+}
+
+.con10 {
+    background-color: #DADCDD;
+    position: relative;
+    bottom: 100px;
+    z-index: -1;
+}
+
+h2,
+h3,
+div p {
+    -ms-transform: skewY(5deg);
+    transform: skewY(5deg);
+}
+
+.first h2,
+.first p,
+span h3 {
+    -ms-transform: none;
+    transform: none;
+}
+
+.alpha {
+    font-family: 'Parisienne';
+    font-weight: 400;
+    font-size: 150px;
+}
+
+.first {
+    color: #DFD5CF;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    margin: 0px 70px 0px 70px;
+    border: 3px dashed white;
+    border-bottom-style: none;
+    height: 800px;
+    position: relative;
+    top: 70px;
+    text-align: center;
+    padding: 100px 100px;
+    box-sizing: border-box;
+}
+
+.first h2 {
+    font-size: 30px;
+    letter-spacing: 12px;
+}
+
+.first p {
+    font-size: 30px;
+    letter-spacing: 12px;
+    margin-top: 50px;
+    font-family: Montserrat Light;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+span h3,
+span#span1 {
+    font-size: 25px;
+}
+
+span#span2 {
+    font-size: 25px;
+    color: white;
+}
+
+#seven-tag {
+    width: 800px;
+}
+
+span#span3 {
+    display: block;
+    position: relative;
+    bottom: 60px;
+    left: 75px;
+}
+
+p {
+    font-family: Calibri;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: left;
+}
+
+.second {
+    color: #1F1527;
+    text-align: left;
+}
+
+.third {
+    color: #F5EBE2;
+    text-align: center;
+}
+
+.fourth {
+    color: #1F1527;
+    text-align: left;
+}
+
+.fifth {
+    color: #ffffff;
+    text-align: center;
+}
+
+.sixth {
+    text-align: left;
+}
+
+.seventh {
+    color: #EEAABE;
+    text-align: center;
+}
+
+.eight {
+    text-align: left;
+}
+
+.ninth {
+    text-align: center;
+}
+
+.tenth {
+    display: grid;
+    grid-template-columns: auto auto;
+    color: #929497;
+    padding: 200px 0;
+    height: 580px;
+}
+
+#align1,
+#align0 {
+    position: relative;
+    left: 120px;
+    width: 550px;
+}
+
+#align2 {
+    position: relative;
+    left: 270px;
+    width: 480px;
+}
+
+#align3 {
+    position: relative;
+    left: 125px;
+    width: 455px;
+    bottom: 10px;
+    font-size: 16px;
+}
+
+#span4 {
+    position: relative;
+    left: 125px;
+    width: 480px;
+    bottom: 55px;
+}
+
+#align4 {
+    position: relative;
+    left: 215px;
+    width: 480px;
+}
+
+#span5 {
+    position: relative;
+    left: 80px;
+    bottom: 55px;
+}
+
+#align5 {
+    position: relative;
+    left: 97px;
+    width: 480px;
+}
+
+#span6 {
+    position: relative;
+    left: 97px;
+    bottom: 55px;
+}
+
+#align6 {
+    position: relative;
+    left: 260px;
+    width: 480px;
+    font-size: 18px;
+}
+
+#span7 {
+    position: relative;
+    left: 180px;
+    font-size: 25px;
+    bottom: 22px;
+}
+
+#span8 {
+    position: relative;
+    right: 100px;
+}
+
+#align7 {
+    position: relative;
+    left: 30px;
+    font-size: 18px;
+    width: 600px;
+}
+
+.con9 .ninth h2 {
+    text-align: right;
+}
+
+#align8 {
+    position: relative;
+    left: 275px;
+    width: 490px;
+}
+
+#ten-one {
+    text-align: left;
+    position: relative;
+    width: 650px;
+    font-weight: bold;
+    font-size: 25px;
+    -ms-transform: none;
+    transform: none
+}
+
+#ten-two {
+    text-align: right;
+    position: relative;
+    top: 18px;
+    left: 30px;
+    width: 350px;
+    font-size: 20px;
+    color: black;
+    -ms-transform: none;
+    transform: none
+}
+
+#ten-span {
+    text-align: left;
+    position: relative;
+    top: 90px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer {
+    height: 120px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 100px;
+}
+
+.footer span {
+    -ms-transform: none;
+    transform: none;
+    color: #929497;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#footer1 {
+    position: relative;
+    left: 20px;
+}
+
+#footer2 {
+    position: relative;
+    left: 450px;
+}
+
+#top {
+    z-index: 1;
+    background-color: #1F1527;
+    color: white;
+    padding: 10px 40px;
+    font-size: 30px;
+    text-align: center;
+    width: fit-content;
+    position: relative;
+    top: 205px;
+    margin: auto;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#bot {
+    position: relative;
+    font-size: 35px;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+}
